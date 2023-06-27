@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sky_blue"
+    tools:context=".MainActivity">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:background="@drawable/border"
+            android:padding="15dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView_logo"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/ic_app_logo_new"
+                android:maxWidth="180dp"
+                android:adjustViewBounds="true"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textview_main_head"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:text="Welcome to Android Rozgar Dhaba App"
+                android:textAlignment="center"
+                android:layout_below="@id/imageView_logo"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_login"
+                android:text="Login"
+                android:layout_marginTop="100dp"
+                android:background="@drawable/border"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_below="@id/textview_main_head"
+                android:layout_marginLeft="90dp"
+                android:layout_marginRight="90dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/register_button"
+                android:text="Register"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border"
+                android:layout_below="@id/button_login"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"/>
+
+
+
+
+        </RelativeLayout>
+
+
+
+</ScrollView>

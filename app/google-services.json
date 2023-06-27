@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "605596187318",
+    "project_id": "rozgar-dhaba-3b9c4",
+    "storage_bucket": "rozgar-dhaba-3b9c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605596187318:android:3e0acf8c800457136d0417",
+        "android_client_info": {
+          "package_name": "com.techstudycom.rozgardhaba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605596187318-ieajd8hilfap9no650aq4949t000dovf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDliOl-Q6dIX_9PXd6kGs94kKRtPZsFfCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605596187318-ieajd8hilfap9no650aq4949t000dovf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
